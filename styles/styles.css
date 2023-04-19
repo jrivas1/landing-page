@@ -9,13 +9,16 @@ body {
     padding: 15px 100px;
     align-items: center;
 }
-.hero {
+.hero, .footer {
     background-color:#1f2937;
     color:#f9faf8;
 }
 .quote {
     background-color: #e5e7eb;
     padding: 100px;
+}
+.action {
+    padding: 90px;
 }
 .infoHeader {
     font-size: 36px;
@@ -57,7 +60,10 @@ button {
     border: 0px;
     border-radius: 5px;
     font-size: 18px;
-    padding: 8px 30px;
+    width: 110px;
+    height: 36px;
+    font-family: Roboto, sans-serif;
+    flex: none
 }
 .logo {
     font-size: 24px;
@@ -111,4 +117,28 @@ button {
     align-self: flex-end;
     font-style: normal;
     font-weight: bold;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 45px 168px;
+    gap: 100px;
+    border-radius: 8px;
+}
+.modal button {
+    border-width: 2px;
+    border-color: #f9faf8;
+    border-style: solid;
+}
+.modal-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
