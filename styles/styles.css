@@ -65,6 +65,12 @@ button {
     font-family: Roboto, sans-serif;
     flex: none
 }
+button:active{
+    background-color: lightblue;
+}
+button:hover{
+    cursor: pointer;
+}
 .logo {
     font-size: 24px;
 }
